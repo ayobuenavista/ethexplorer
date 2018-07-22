@@ -2,38 +2,25 @@
 
 ![ETH Block Explorer Screenshot](https://i.imgur.com/8dPnAct.jpg)
 
-## Demo
-
-[https://explorer.ethorbit.com/](https://explorer.ethorbit.com/)
-
 ## License
 
 The code in this branch is licensed under GPLv3 (see LICENSE file)
 Feel free to modify or reuse the code here.
 
-## Reddit
-
-Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/7lwft2/new_ethereum_block_explorer_updated_version_of/)
-
-## Donations
-
-ETH Address: 0x1BDA9C6A37ECd91940df1E7559A8403ecE9806D1
-
 ## Installation
 
 ```
-git clone https://github.com/sthnaqvi/explorer
+git clone https://github.com/ayobuenavista/ethexplorer
 npm install
-bower install
 npm start
 ```
 
-Make sure to install geth as well for the ETH explorer to be able to function. Then run:
+Run ganache-cli
 ```
-geth --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3,eth" --rpccorsdomain "http://localhost:8000"
+ ganache-cli --accounts 5 --db ganache-db --mnemonic 'gesture rather obey video awake genuine patient base soon parrot upset lounge' --networkId 5777 --debug
 ```
 
-Then visit http://localhost:8000 in your browser of choice after you npm start the explorer
+Then visit http://localhost:8000 in your browser of choice after you start the explorer
 
 ## Updates since original etherpaty/explorer base:
 
